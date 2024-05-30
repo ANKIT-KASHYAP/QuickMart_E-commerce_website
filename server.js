@@ -9,7 +9,7 @@ import categoryRoutes from "./routes/categoryRoutes.js";
 import cors from "cors";
 import productRoutes from "./routes/productRoutes.js";
 import path from "path";
-import {fileURL ToPath} from 'url';
+import {fileURLToPath} from 'url';
 
 //rest object
 const app = express();
